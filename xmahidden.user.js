@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         XMA Hidden Hidden
 // @namespace    XMA Hidden Hidden
-// @version      0.269
+// @version      0.27
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.xivmodarchive.com/*
