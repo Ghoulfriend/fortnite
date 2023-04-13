@@ -7,7 +7,7 @@
 // @match        https://www.xivmodarchive.com/*
 // @icon         https://www.xivmodarchive.com/favicon.png
 // @grant        none
-// @run-at       document-start
+// @run-at       document-end
 // @updateURL     https://github.com/Ghoulfriend/fortnite/raw/main/xmahidden.user.js
 // @downloadURL   https://github.com/Ghoulfriend/fortnite/raw/main/xmahidden.user.js
 // ==/UserScript==
@@ -33,5 +33,5 @@ contains('a', 'Hidden Mod')[7].parentElement.parentElement.parentElement.style.d
 contains('a', 'Hidden Mod')[8].parentElement.parentElement.parentElement.style.display = "none"
     }
 
-       setTimeout(doit, 100)
+       setTimeout(doit, 0)
 })();
